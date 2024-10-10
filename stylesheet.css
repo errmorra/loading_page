@@ -1,4 +1,22 @@
 body {
+    font-style: roboto;
+    background-color:#1F2937;
 
 
+}
+
+
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
+
+}
+
+.right-links{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+    color:#E5E7EB;
+    font-size: 18px;
 }
