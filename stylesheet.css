@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.header {
+.section-one {
     font-family:'Roboto',sans-serif;
     background-color:#1F2937;
 }
@@ -42,4 +42,42 @@ h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight:bolder;
+}
+.contents{
+    display:flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.contents-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+.contents-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 200px;
+    
+}
+img{
+    margin-bottom: 50px;
+}
+
+.para-first{
+    font-size: 18px;
+    color:#E5E7EB;
+    
+
+}
+.first-button{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 1 px #3882F6;
+    border-radius: 10px;
 }
