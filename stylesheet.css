@@ -81,3 +81,38 @@ img{
     border: 1 px #3882F6;
     border-radius: 10px;
 }
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.row-blue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.blue-boxes{
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para-second{
+    text-align: center;
+    font-size: 18px;
+
+}
